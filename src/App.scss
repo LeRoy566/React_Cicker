@@ -1,0 +1,29 @@
+#root {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.Colors {
+  margin: auto;
+
+   &__text{
+    font-size: 37px;
+    &_red{
+    color: red;
+    }
+    &_blue{
+        color: blue;
+        }
+   }
+   &__plus{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+   }
+   &__minus{
+    width: 100px;
+    height: 100px;
+    background-color: wheat;
+   }
+   
+}
